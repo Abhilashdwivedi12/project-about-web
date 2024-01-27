@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" );
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    box-sizing: border-box;
+    border: black;
+    
+    min-height: 100vh;
+    background-size: cover;
+    
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 32);
+    background-color: aqua;
+    flex-direction: column;
+    
+    
+    color:white;
+}
+    .blog{
+        background-color:  rgb(12, 12, 11);;
+        width: 100%;
+        height: 145px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.box1{
+    background-color: white;
+    color: rgb(12, 12, 11);
+    font-weight: 600;
+    height: 233px;
+    width: 233px;
+    
+    margin: 122px;
+    color: rgb(12, 12, 11);
+}
+.box2{
+    background-color: white;
+    color: rgb(12, 12, 11);
+    font-weight: 600;
+    height: 233px;
+    width: 233px;
+    margin: 122px;
+
+}
+.box3{
+    background-color: white;
+    color: rgb(12, 12, 11);
+    font-weight: 600;
+    height: 233px;
+    width: 233px;
+    margin: 122px;
+}
+
+img{
+    height: 40%;
+    padding: 12px;
+}
+.box{
+    display: flex;
+  
+    flex-direction: row;
+    height: 445px;
+    width: 100%;
+  /*  margin:122px 0px 112px -48px;*/
+    background-color: rgb(12, 12, 11);
+}
+.btn{
+    height: 145px;
+    width: 100%;
+    background-color:  rgb(12, 12, 11);;
+    color: white;
+    border: black;
+    
+
+}
+button{
+box-sizing: border-box;
+border: 1px solid white;
+}
